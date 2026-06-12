@@ -1,152 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EchoStream – Child Safety Standards</title>
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #0b0f19;
-      color: #e8eeff;
-      margin: 0;
-      padding: 0;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 32px 20px 60px;
-    }
-
-    .card {
-      background: #121a2a;
-      border: 1px solid rgba(255,255,255,0.08);
-      border-radius: 14px;
-      padding: 28px;
-    }
-
-    h1 {
-      font-size: 26px;
-      margin-top: 0;
-    }
-
-    h2 {
-      font-size: 18px;
-      margin-top: 28px;
-    }
-
-    p, li {
-      line-height: 1.6;
-      color: rgba(232,238,255,0.9);
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    a {
-      color: #7ab7ff;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .badge {
-      display: inline-block;
-      background: rgba(122,183,255,0.15);
-      border: 1px solid rgba(122,183,255,0.35);
-      padding: 6px 12px;
-      border-radius: 999px;
-      font-size: 14px;
-      margin-bottom: 12px;
-    }
-
-    footer {
-      margin-top: 28px;
-      font-size: 14px;
-      color: rgba(232,238,255,0.7);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoStream – Child Safety Standards</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+        .hero-bg {
+            background: linear-gradient(135deg, #1e2937 0%, #0f172a 100%);
+        }
+    </style>
 </head>
+<body class="bg-gray-950 text-gray-200">
+    <!-- Header -->
+    <header class="hero-bg border-b border-gray-800">
+        <div class="max-w-4xl mx-auto px-6 py-6">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-blue-600 rounded-2xl flex items-center justify-center">
+                        <i class="fas fa-waveform text-white text-2xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-bold tracking-tight">EchoStream</h1>
+                        <p class="text-xs text-gray-400">Safe • Anonymous • Real</p>
+                    </div>
+                </div>
+                <nav class="hidden md:flex items-center gap-8 text-sm">
+                    <a href="#" class="hover:text-white transition">Home</a>
+                    <a href="#" class="hover:text-white transition">Privacy Policy</a>
+                    <a href="#" class="text-blue-400 font-medium">Child Safety</a>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-<body>
-  <div class="container">
-    <div class="card">
-      <div class="badge">CSAE / Child Safety Policy</div>
+    <main class="max-w-4xl mx-auto px-6 py-12">
+        <div class="mb-10">
+            <h1 class="text-4xl font-bold mb-2 text-white">Child Safety Standards</h1>
+            <p class="text-blue-400 text-lg">EchoStream – Child Safety Policy</p>
+        </div>
 
-      <h1>EchoStream – Child Safety Standards</h1>
+        <div class="prose prose-invert max-w-none">
+            <p class="text-lg leading-relaxed text-gray-300">
+                EchoStream is committed to protecting children and maintaining a safe platform. 
+                We enforce a <strong class="text-red-400">strict zero-tolerance policy</strong> toward any content that involves child sexual abuse or exploitation (CSAE).
+            </p>
 
-      <p>
-        EchoStream is committed to protecting children and maintaining a safe platform.
-        We enforce a strict zero-tolerance policy toward any content that involves child
-        sexual abuse or exploitation (CSAE).
-      </p>
+            <!-- Zero Tolerance -->
+            <div class="mt-12 bg-gray-900 border border-gray-700 rounded-2xl p-8">
+                <h2 class="text-2xl font-semibold mb-6 flex items-center gap-3">
+                    <span class="text-red-500">1.</span> Zero-Tolerance Policy
+                </h2>
+                <p class="mb-4 text-gray-300">
+                    EchoStream strictly prohibits any content that depicts, promotes, facilitates, or references child sexual abuse or exploitation. This includes:
+                </p>
+                <ul class="space-y-3 text-gray-300">
+                    <li class="flex items-start gap-3">
+                        <span class="text-red-500 mt-1">•</span>
+                        Sexual content involving minors
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-red-500 mt-1">•</span>
+                        Grooming, solicitation, or exploitation of minors
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-red-500 mt-1">•</span>
+                        Requests for sexual images or interactions involving minors
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-red-500 mt-1">•</span>
+                        Any attempt to direct users to CSAE material
+                    </li>
+                </ul>
+            </div>
 
-      <h2>1. Zero-Tolerance Policy</h2>
-      <p>
-        EchoStream strictly prohibits any content that depicts, promotes, facilitates,
-        or references child sexual abuse or exploitation. This includes:
-      </p>
-      <ul>
-        <li>Sexual content involving minors</li>
-        <li>Grooming, solicitation, or exploitation of minors</li>
-        <li>Requests for sexual images or interactions involving minors</li>
-        <li>Any attempt to direct users to CSAE material</li>
-      </ul>
+            <!-- Reporting In-App -->
+            <div class="mt-10 bg-gray-900 border border-gray-700 rounded-2xl p-8">
+                <h2 class="text-2xl font-semibold mb-6 flex items-center gap-3">
+                    <span class="text-blue-400">2.</span> Reporting In-App
+                </h2>
+                <p class="text-gray-300">
+                    Users can report content directly within the EchoStream app using the Report feature on posts and profiles. 
+                    Reports are reviewed promptly and may result in content removal, account suspension, or permanent bans.
+                </p>
+            </div>
 
-      <h2>2. Reporting In-App</h2>
-      <p>
-        Users can report content directly within the EchoStream app using the
-        <strong>Report</strong> feature on posts and profiles.
-        Reports are reviewed promptly and may result in content removal,
-        account suspension, or permanent bans.
-      </p>
+            <!-- External Reporting -->
+            <div class="mt-10 bg-gray-900 border border-gray-700 rounded-2xl p-8">
+                <h2 class="text-2xl font-semibold mb-6 flex items-center gap-3">
+                    <span class="text-blue-400">3.</span> External Reporting
+                </h2>
+                <p class="mb-4 text-gray-300">
+                    If you believe a child is in immediate danger, contact local emergency services. 
+                    Suspected CSAE can also be reported to the National Center for Missing &amp; Exploited Children (NCMEC) CyberTipline:
+                </p>
+                <a href="https://www.missingkids.org/gethelpnow/cybertipline" 
+                   target="_blank"
+                   class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-500 transition text-white px-6 py-3 rounded-xl font-medium">
+                    <i class="fas fa-external-link-alt"></i>
+                    Report to NCMEC CyberTipline
+                </a>
+            </div>
 
-      <h2>3. External Reporting</h2>
-      <p>
-        If you believe a child is in immediate danger, contact local emergency services.
-        Suspected CSAE can also be reported to the National Center for Missing &
-        Exploited Children (NCMEC) CyberTipline:
-      </p>
+            <!-- Enforcement -->
+            <div class="mt-10 bg-gray-900 border border-gray-700 rounded-2xl p-8">
+                <h2 class="text-2xl font-semibold mb-6 flex items-center gap-3">
+                    <span class="text-blue-400">4.</span> Enforcement
+                </h2>
+                <p class="text-gray-300">
+                    EchoStream actively monitors and investigates reports of CSAE. Violations result in immediate removal of content and permanent account termination. 
+                    Relevant cases may be reported to appropriate authorities.
+                </p>
+            </div>
 
-      <p>
-        <a href="https://www.missingkids.org/gethelpnow/cybertipline"
-           target="_blank"
-           rel="noopener noreferrer">
-          https://www.missingkids.org/gethelpnow/cybertipline
-        </a>
-      </p>
+            <!-- Contact -->
+            <div class="mt-10 bg-gray-900 border border-gray-700 rounded-2xl p-8">
+                <h2 class="text-2xl font-semibold mb-6 flex items-center gap-3">
+                    <span class="text-blue-400">5.</span> Contact
+                </h2>
+                <p class="text-gray-300 mb-4">
+                    For questions regarding child safety or compliance, contact:
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="mailto:echosteram@gmail.com" 
+                       class="flex-1 bg-gray-800 hover:bg-gray-700 transition rounded-2xl p-5 group">
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-blue-500/10 rounded-xl flex items-center justify-center">
+                                <i class="fas fa-envelope text-blue-400"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-400">Email</p>
+                                <p class="font-medium text-white group-hover:text-blue-400">echosteram@gmail.com</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
 
-      <h2>4. Enforcement</h2>
-      <p>
-        EchoStream actively monitors and investigates reports of CSAE.
-        Violations result in immediate removal of content and permanent account termination.
-        Relevant cases may be reported to appropriate authorities.
-      </p>
+        <div class="mt-16 text-center text-xs text-gray-500">
+            Last updated: June 2026<br>
+            EchoStream by Nachman Zeida Rosenberg • United States
+        </div>
+    </main>
 
-      <h2>5. Contact</h2>
-      <p>
-        For questions regarding child safety or compliance, contact:
-      </p>
-      <p>
-        <strong>Email:</strong>
-        <a href="mailto:echosteram@gmail.com">echosteram@gmail.com</a>
-      </p>
+    <!-- Footer -->
+    <footer class="bg-black py-8 border-t border-gray-900">
+        <div class="max-w-4xl mx-auto px-6 text-center text-xs text-gray-500">
+            ©️ 2026 EchoStream. All rights reserved.<br>
+            This policy is part of our commitment to a safe community.
+        </div>
+    </footer>
 
-      <footer>
-        Last updated:
-        <span id="date"></span>
-      </footer>
-    </div>
-  </div>
-
-  <script>
-    document.getElementById("date").textContent =
-      new Date().toISOString().slice(0, 10);
-  </script>
+    <script>
+        // Tailwind script already loaded via CDN
+    </script>
 </body>
 </html>
